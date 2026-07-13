@@ -23,7 +23,7 @@
         <div id="quiz-view" class="state-view hidden">
             <header class="quiz-header">
                 <div class="progress-container">
-                    <span id="progress-text">Question 1 of 20</span>
+                    <span id="progress-text">Loading Progress...</span>
                     <div class="progress-bar-bg">
                         <div id="progress-bar-fill"></div>
                     </div>
@@ -52,7 +52,7 @@
             <div class="results-card">
                 <h2>Quiz Completed!</h2>
                 <div class="final-score-circle">
-                    <span id="final-score">0</span><span class="total-possible">/20</span>
+                    <span id="final-score">0</span><span class="total-possible">/ <span id="total-possible-score">0</span></span>
                 </div>
                 <p id="performance-summary">Excellent breakdown performance!</p>
                 <button onclick="window.location.reload();" class="primary-btn">Restart Quiz</button>
