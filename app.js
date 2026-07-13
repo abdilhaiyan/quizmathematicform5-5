@@ -60,7 +60,8 @@ class QuizEngine {
         if (!Array.isArray(data) || data.length === 0) {
             throw new Error("The questions schema file is empty or malformed.");
         }
-        return data.slice(0, 20);
+        // FIXED: Removed .slice(0, 20) so it loads all questions in your JSON file dynamically
+        return data; 
     }
 
     renderQuestion() {
