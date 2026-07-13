@@ -146,20 +146,24 @@ class QuizEngine {
         }
     }
 
-    displayFinalResults() {
+   displayFinalResults() {
         this.dom.quizView.classList.add('hidden');
         this.dom.resultsView.classList.remove('hidden');
         
         this.dom.progressBarFill.style.width = '100%';
         this.dom.finalScore.textContent = this.score;
+        
+        // FIXED: Dynamically inject the final total count to the results board
+        const totalSlot = document.getElementById('total-possible-score');
+        if (totalSlot) totalSlot.textContent = this.questions.length;
 
         const percentage = (this.score / this.questions.length) * 100;
         if (percentage >= 80) {
             this.dom.performanceSummary.textContent = "Exceptional result! Outstanding execution and accuracy.";
         } else if (percentage >= 50) {
-            this.dom.performanceSummary.textContent = "Solid pass performance. A light review of target sectors recommended.";
+            this.dom.performanceSummary.textContent = "Solid pass performance. A light revision is recommended.";
         } else {
-            this.dom.performanceSummary.textContent = "Balance issues caught. A deep revision of material ledgers advised.";
+            this.dom.performanceSummary.textContent = "Try again. Do revision first before restart.";
         }
     }
 }
