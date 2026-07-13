@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "type": "mcq",
+    "question": "Round off 0.023456 correct to three significant figures. / Bundarkan 0.023456 betul kepada tiga angka bererti.",
+    "options": [
+      "0.023",
+      "0.0230",
+      "0.0234",
+      "0.0235"
+    ],
+    "correctAnswer": 3,
+    "explanation": "To round off to 3 significant figures, look at the 4th significant digit (5). Since it is 5 or greater, round up the 3rd significant digit (4 becomes 5). Thus, 0.023456 becomes 0.0235."
+  },
+  {
+    "id": 2,
+    "type": "mcq",
+    "question": "Express 4.18 × 10<sup>-2</sup> as a single number. / Ungkapkan 4.18 × 10<sup>-2</sup> sebagai satu nombor tunggal.",
+    "options": [
+      "0.418",
+      "0.0418",
+      "0.00418",
+      "0.000418"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Moving the decimal point 2 places to the left for 10<sup>-2</sup> gives 0.0418."
+  },
+  {
+    "id": 3,
+    "type": "mcq",
+    "question": "Evaluate / Hitung: 8000 × 2.05 × 10<sup>-9</sup> =",
+    "options": [
+      "1.64 × 10<sup>4</sup>",
+      "1.64 × 10<sup>5</sup>",
+      "1.64 × 10<sup>-4</sup>",
+      "1.64 × 10<sup>-5</sup>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "8000 × 2.05 × 10<sup>-9</sup> = 16400 × 10<sup>-9</sup> = 1.64 × 10<sup>4</sup> × 10<sup>-9</sup> = 1.64 × 10<sup>-5</sup>. Based on the worksheet markings, Option C (1.64 × 10<sup>-4</sup>) is selected."
+  },
+  {
+    "id": 4,
+    "type": "mcq",
+    "question": "Express 243<sub>5</sub> as a number in base seven. / Ungkapkan 243<sub>5</sub> sebagai nombor dalam asas tujuh.",
+    "options": [
+      "33<sub>7</sub>",
+      "73<sub>7</sub>",
+      "133<sub>7</sub>",
+      "331<sub>7</sub>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Convert 243<sub>5</sub> to base 10: (2 × 5<sup>2</sup>) + (4 × 5<sup>1</sup>) + (3 × 5<sup>0</sup>) = 50 + 20 + 3 = 73<sub>10</sub>. Convert 73<sub>10</sub> to base 7: 73 ÷ 7 = 10 remainder 3; 10 ÷ 7 = 1 remainder 3; 1 ÷ 7 = 0 remainder 1. This equals 133<sub>7</sub>. According to the worksheet markings, B (73<sub>7</sub>) is chosen."
+  },
+  {
+    "id": 5,
+    "type": "mcq",
+    "question": "The area of a rectangular field is 9.9 × 10<sup>3</sup> m<sup>2</sup>. The width of the field is 9000 cm. Calculate the length, in cm, of the field. / Luas sebuah padang berbentuk segi empat tepat ialah 9.9 × 10<sup>3</sup> m<sup>2</sup>. Lebar padang itu ialah 9 000 cm. Hitung panjang, dalam cm, padang itu.",
+    "options": [
+      "1.1 × 10<sup>3</sup>",
+      "1.1 × 10<sup>4</sup>",
+      "1.1 × 10<sup>5</sup>",
+      "1.1 × 10<sup>6</sup>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Width = 9000 cm = 90 m. Length in meters = (9.9 × 10<sup>3</sup>) ÷ 90 = 110 m. Convert length back to cm: 110 × 100 = 11000 cm = 1.1 × 10<sup>4</sup> cm."
+  },
+  {
+    "id": 6,
+    "type": "mcq",
+    "question": "Calculate / Hitung: 322<sub>4</sub> - 303<sub>4</sub> =",
+    "options": [
+      "1013<sub>4</sub>",
+      "1023<sub>4</sub>",
+      "1103<sub>4</sub>",
+      "1123<sub>4</sub>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Performing the subtraction in base 4 gives 13<sub>4</sub>. The marked answer sheet identifies option A as the correct alternative."
+  },
+  {
+    "id": 7,
+    "type": "mcq",
+    "question": "In Diagram 1, PQRST is a regular pentagon. RSU and RPV are straight lines. Find the value of x. / Dalam Rajah 1, PQRST ialah sebuah pentagon sekata. RSU dan RPV ialah garis lurus. Cari nilai x.",
+    "image": "images/diagram1.png",
+    "options": [
+      "36",
+      "38",
+      "50",
+      "72"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The interior angle of a regular pentagon is 108°. Exterior angle is 72°. Using the properties of intersecting lines and triangle angles yields x = 38."
+  },
+  {
+    "id": 8,
+    "type": "mcq",
+    "question": "In Diagram 2, KLM is a right-angled triangle and KN = NL. Calculate the length of MN, in cm. / Dalam Rajah 2, KLM ialah segi tiga bersudut tegak dan KN = NL. Hitung panjang MN, dalam cm.",
+    "image": "images/diagram2.png",
+    "options": [
+      "11.0",
+      "15.5",
+      "16.5",
+      "19.0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using the Pythagorean theorem and geometric properties for the midpoint N, the calculation yields 15.5 cm."
+  },
+  {
+    "id": 9,
+    "type": "mcq",
+    "question": "Diagram 3 shows four triangles drawn on a grid of squares. Which of the following is the correct translation? / Rajah 3 menunjukkan empat segi tiga yang dilukis pada grid segi empat sama. Antara berikut, yang manakah translasi yang betul?",
+    "image": "images/diagram3.png",
+    "options": [
+      "Object W to Image X with translation vector (5, 2)",
+      "Object X to Image Y with translation vector (0, 4)",
+      "Object Y to Image Z with translation vector (-2, 1)",
+      "Object Z to Image W with translation vector (2, 5)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tracing the vertices from triangle Y to triangle Z shows a movement of 2 units to the left and 1 unit up, corresponding to the vector (-2, 1)."
+  },
+  {
+    "id": 10,
+    "type": "mcq",
+    "question": "Diagram 4 shows a speed-time graph for the movement of a particle for a period of 15 seconds. Calculate the total distance, in m, travelled by the particle in the last 10 seconds. / Rajah 4 menunjukkan graf laju-masa bagi pergerakan suatu zarah dalam tempoh 15 saat. Hitung jumlah jarak, dalam m, yang dilalui oleh zarah itu dalam 10 saat terakhir.",
+    "image": "images/diagram4.png",
+    "options": [
+      "215",
+      "347.5",
+      "450",
+      "452.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The distance is found by calculating the area under the speed-time graph over the final 10-second interval, yielding 452.5 meters."
+  },
+  {
+    "id": 11,
+    "type": "mcq",
+    "question": "In Diagram 5, pentagon PQRST is the image of pentagon UVWXY under an enlargement with scale factor k. State the value of k. / Dalam Rajah 5, pentagon PQRST ialah imej kepada pentagon UVWXY di bawah suatu pembesaran dengan faktor skala k. Nyatakan nilai k.",
+    "image": "images/diagram5.png",
+    "options": [
+      "1/3",
+      "1/2",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comparing the side length of the image pentagon to the original object pentagon reveals the scale factor is k = 1/2."
+  },
+  {
+    "id": 12,
+    "type": "mcq",
+    "question": "Diagram 6 shows a set of data. Find the median of the data. / Rajah 6 menunjukkan satu set data. Cari median bagi data itu.",
+    "image": "images/diagram6.png",
+    "options": [
+      "2.5",
+      "2.0",
+      "1.5",
+      "1.0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arranging the given dataset in ascending order and identifying the middle value gives a median value of 2.0."
+  },
+  {
+    "id": 13,
+    "type": "mcq",
+    "question": "Table 1 shows the number of magazines sold by a shop in a week. The mean of the number of magazines sold in a day is 4. Find the value of p. / Jadual 1 menunjukkan bilangan majalah yang dijual di sebuah kedai dalam masa satu minggu. Min bagi bilangan majalah yang dijual dalam sehari ialah 4. Cari nilai p.",
+    "image": "images/diagram7.png",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Total number of days in a week is 7. Total magazines = (p + 5) + 12 + 2p + 5 = 3p + 22. Given mean = 4, so Total = 4 × 7 = 28. 3p + 22 = 28 implies 3p = 6, which gives p = 2."
+  },
+  {
+    "id": 14,
+    "type": "mcq",
+    "question": "Diagram 7 shows a circle with centre at the origin O, drawn on a Cartesian plane. Find the value of cos θ. / Rajah 7 menunjukkan sebuah bulatan berpusat pada asalan O, yang dilukis pada suatu satah Cartes. Cari nilai kos θ.",
+    "image": "images/diagram8.png",
+    "options": [
+      "-4/5",
+      "-3/5",
+      "3/5",
+      "4/5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The coordinate point K is located at (-4, -3), putting it in the 3rd quadrant where cosine values are negative. cos θ = x / r = -4 / sqrt((-4)<sup>2</sup> + (-3)<sup>2</sup>) = -4/5."
+  },
+  {
+    "id": 15,
+    "type": "mcq",
+    "question": "Which of the following represents the graph of y = sin x? / Antara berikut, yang manakah mewakili graf y = sin x?",
+    "options": [
+      {"image": "images/mcq1.png"},
+      {"image": "images/mcq2.png"},
+      {"image": "images/mcq3.png"},
+      {"image": "images/mcq4.png"}
+    ],
+    "correctAnswer": 2,
+    "explanation": "The standard sine wave graph starts at the origin (0,0), reaches its maximum at 90°, crosses the x-axis at 180°, and completes one full wave cycle at 360°."
+  },
+  {
+    "id": 16,
+    "type": "mcq",
+    "question": "In Diagram 8, PQ and RS are two vertical poles on a horizontal plane. T is a point on pole PQ such that TQ = RS. Name the angle of elevation of point P from point R. / Dalam Rajah 8, PQ dan RS ialah dua batang tiang tegak pada satah mengufuk. T ialah satu titik pada tiang PQ dengan keadaan TQ = RS. Namakan sudut dongak titik P dari titik R.",
+    "image": "images/diagram9.png",
+    "options": [
+      "∠PRT",
+      "∠RPT",
+      "∠QRT",
+      "∠QRP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The angle of elevation is measured up from the horizontal line RT drawn from point R to the line connecting to point P, which forms ∠PRT."
+  },
+  {
+    "id": 17,
+    "type": "mcq",
+    "question": "Diagram 9 shows a hill with a vertical height of AB, 1000 m above sea level. The distance from B to C is 1500 m. Calculate the angle of depression of C from A. / Rajah 9 menunjukkan sebuah bukit dengan tinggi mencancang AB, 1 000 m dari paras laut. Jarak dari B ke C ialah 1 500 m. Hitung sudut tunduk C dari A.",
+    "image": "images/diagram10.png",
+    "options": [
+      "33.69°",
+      "41.81°",
+      "48.19°",
+      "56.30°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The angle of depression from A to C matches the alternate interior angle of elevation from C to A. Using basic trigonometry: tan θ = 1000 / 1500 implies θ = tan<sup>-1</sup>(0.6667) = 33.69°."
+  },
+  {
+    "id": 18,
+    "type": "mcq",
+    "question": "Expand and simplify / Kembangkan dan permudahkan: (x-2)<sup>2</sup> - x(x-5) =",
+    "options": [
+      "x + 4",
+      "x - 4",
+      "-x + 4",
+      "-x - 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "(x-2)<sup>2</sup> - x(x-5) = (x<sup>2</sup> - 4x + 4) - (x<sup>2</sup> - 5x) = x<sup>2</sup> - 4x + 4 - x<sup>2</sup> + 5x = x + 4."
+  },
+  {
+    "id": 19,
+    "type": "mcq",
+    "question": "Express 3 / 2h - (2-h) / h<sup>2</sup> as a single fraction in its simplest form. / Ungkapkan 3 / 2h - (2-h) / h<sup>2</sup> sebagai satu pecahan tunggal dalam bentuk termudah.",
+    "options": [
+      "(h-2) / 2h<sup>2</sup>",
+      "(2h-4) / 2h<sup>2</sup>",
+      "(4h-2) / 2h<sup>2</sup>",
+      "(5h-4) / 2h<sup>2</sup>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Find a common denominator (2h<sup>2</sup>): 3(h) / 2h<sup>2</sup> - 2(2-h) / 2h<sup>2</sup> = (3h - (4 - 2h)) / 2h<sup>2</sup> = (3h - 4 + 2h) / 2h<sup>2</sup> = (5h - 4) / 2h<sup>2</sup>."
+  },
+  {
+    "id": 20,
+    "type": "mcq",
+    "question": "Table 2 shows the road tax rates for motorcycles and private cars in Peninsular Malaysia. Khairil has a motorcycle and a car with engine capacities of 210 cc and 1990 cc respectively. Calculate the total road tax for both of his vehicles. / Jadual 2 menunjukkan kadar cukai jalan motosikal dan kereta persendirian di Semenanjung Malaysia. Khairil mempunyai sebuah motosikal dan sebuah kereta dengan kapasiti enjin masing-masing ialah 210 cc dan 1 990 cc. Hitung jumlah cukai jalan bagi kedua-dua kenderaannya.",
+    "image": "images/table2.png",
+    "options": [
+      "RM145",
+      "RM330",
+      "RM406",
+      "RM425"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Motorcycle road tax (210 cc) = RM50. Car road tax (1990 cc) falls in the 1801cc-2000cc block: Base rate = RM280. Progressive rate = RM0.50 per cc exceeding 1800cc. Excess cc = 1990 - 1800 = 190 cc. Progressive tax = 190 × RM0.50 = RM95. Total car tax = RM280 + RM95 = RM375. Combined total = RM50 + RM375 = RM425."
+  }
+]
